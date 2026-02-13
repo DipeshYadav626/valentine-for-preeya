@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 · Valentine's Day ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge final">❤️ Day 8 of 8 ❤️</div>
+        <h1 class="day-title">Valentine's Day</h1>
+        
+        <div class="message-container">
+            <p class="message">
+                Happy Valentine's Day, Preeya ❤️
+            </p>
+            
+            <div class="counter-box">
+                <span class="counter-label">We have been in love for</span>
+                <span class="counter-number" id="loveCounter">0</span>
+                <span class="counter-label">days 💘</span>
+            </div>
+
+            <p class="message">
+                Through all 8 days of Valentine's Week,<br>
+                <span class="highlight">my heart belongs only to you.</span>
+            </p>
+        </div>
+
+        <div class="final-buttons">
+            <button onclick="acceptLove()" class="btn-primary btn-large">YES 💘</button>
+            <button class="btn-secondary btn-large no-btn" onmouseover="moveButton(this)">NO 😜</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 100%"></div>
+        </div>
+        <p class="progress-text">Day 8 of 8 - Complete! 🎉</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

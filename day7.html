@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 · Kiss Day 💋</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge">💋 Day 7 of 8</div>
+        <h1 class="day-title">Kiss Day</h1>
+        
+        <div class="kiss-emoji">💋</div>
+        
+        <div class="message-container">
+            <p class="message">
+                If I could, I'd steal a thousand kisses<br>
+                from your lips and keep them in my heart 💋<br>
+                <span class="highlight">Every kiss would tell you how much I love you.</span>
+            </p>
+        </div>
+
+        <div class="romantic-message">
+            "A kiss is a secret told to the mouth instead of the ear.<br>
+            My secret? I'm completely in love with you."
+        </div>
+
+        <div class="kiss-counter" id="kissCounter">
+            <span class="kiss-number" id="kissCount">0</span>
+            <span class="kiss-label">virtual kisses sent</span>
+        </div>
+        
+        <button class="kiss-button" onclick="sendKiss()">💋 Send a Kiss</button>
+
+        <div class="navigation">
+            <button onclick="goToDay6()" class="btn-secondary">◀ Previous</button>
+            <button onclick="goToDay8()" class="btn-primary">Final Day ❤️</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 87.5%"></div>
+        </div>
+        <p class="progress-text">Day 7 of 8</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

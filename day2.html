@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 · Propose Day 💍</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge">💍 Day 2 of 8</div>
+        <h1 class="day-title">Propose Day</h1>
+        
+        <div class="message-container">
+            <p class="message">
+                From knowing you for 6 years<br>
+                to loving you for 3 beautiful years...<br>
+                <span class="highlight">I would choose you again and again in every lifetime.</span>
+            </p>
+        </div>
+
+        <div class="navigation">
+            <button onclick="goToDay1()" class="btn-secondary">◀ Previous</button>
+            <button onclick="goToDay3()" class="btn-primary">Next Day ➡</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 25%"></div>
+        </div>
+        <p class="progress-text">Day 2 of 8</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

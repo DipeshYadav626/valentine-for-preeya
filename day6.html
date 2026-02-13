@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 · Hug Day 🤗</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge">🤗 Day 6 of 8</div>
+        <h1 class="day-title">Hug Day</h1>
+        
+        <div class="hug-emoji">🤗</div>
+        
+        <div class="hug-gallery">
+            <span class="hug-icon">🤗</span>
+            <span class="hug-icon">🫂</span>
+            <span class="hug-icon">🤗</span>
+            <span class="hug-icon">💕</span>
+            <span class="hug-icon">🤗</span>
+        </div>
+        
+        <div class="message-container">
+            <p class="message">
+                Every time I think of you,<br>
+                I just want to wrap my arms around you<br>
+                <span class="highlight">and never let go.</span>
+            </p>
+            <p class="message" style="margin-top: 20px;">
+                Until we meet again,<br>
+                let these virtual hugs remind you<br>
+                how much you're loved.
+            </p>
+        </div>
+
+        <div class="hug-message">
+            "A hug is like a boomerang - you get it back immediately."
+        </div>
+
+        <div class="hug-counter" id="hugCounter">
+            <span class="hug-number" id="hugCount">0</span>
+            <span class="hug-label">warm hugs sent</span>
+        </div>
+        
+        <button class="hug-send-button" onclick="sendHug()">🤗 Send a Warm Hug</button>
+
+        <div class="navigation">
+            <button onclick="goToDay5()" class="btn-secondary">◀ Previous</button>
+            <button onclick="goToDay7()" class="btn-primary">Next Day ➡</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%"></div>
+        </div>
+        <p class="progress-text">Day 6 of 8</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 · Rose Day 🌹</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge">🌹 Day 1 of 8</div>
+        <h1 class="day-title">Rose Day</h1>
+        
+        <div class="message-container">
+            <p class="message">
+                Preeya, even though I'm miles away,<br>
+                I'm sending you this virtual rose 🌹<br>
+                <span class="highlight">because you are the most beautiful flower in my life.</span>
+            </p>
+        </div>
+
+        <div class="navigation">
+            <button onclick="goToHome()" class="btn-secondary">🏠 Home</button>
+            <button onclick="goToDay2()" class="btn-primary">Next Day ➡</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 12.5%"></div>
+        </div>
+        <p class="progress-text">Day 1 of 8</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

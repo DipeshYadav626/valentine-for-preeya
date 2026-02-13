@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️ | Valentine's Journey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass fade-in">
+        <div class="heart-icon">❤️</div>
+        <h1 class="title">A Special Journey</h1>
+        <p class="subtitle">For Preeya, with love</p>
+        
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Enter our secret word" autocomplete="off">
+            <button onclick="checkPassword()" class="btn-primary" id="unlockBtn">Unlock the surprise ✨</button>
+        </div>
+        
+        <div id="errorMsg" class="error-message"></div>
+        <p class="hint" onclick="showHint()">💡 Hint: The day we started dating (click for help)</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

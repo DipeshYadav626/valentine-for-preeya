@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 · Teddy Day 🧸</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+    <div class="stars"></div>
+    
+    <div class="card glass slide-in">
+        <div class="day-badge">🧸 Day 4 of 8</div>
+        <h1 class="day-title">Teddy Day</h1>
+        
+        <div class="message-container">
+            <p class="message">
+                You're as soft and cuddly as a teddy bear 🧸<br>
+                I wish I could hug you right now<br>
+                <span class="highlight">and never let you go.</span>
+            </p>
+        </div>
+
+        <div class="hug-counter" id="hugCounter">
+            <span class="hug-number" id="hugCount">0</span>
+            <span class="hug-label">bear hugs sent</span>
+        </div>
+        
+        <button class="hug-button" onclick="sendHug()">🧸 Send a Bear Hug</button>
+
+        <div class="navigation">
+            <button onclick="goToDay3()" class="btn-secondary">◀ Previous</button>
+            <button onclick="goToDay5()" class="btn-primary">Next Day ➡</button>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress" style="width: 50%"></div>
+        </div>
+        <p class="progress-text">Day 4 of 8</p>
+    </div>
+
+    <button class="music-btn" onclick="toggleMusic()">🔊</button>
+    <audio id="bgMusic" loop>
+        <source src="https://www.fesliyanstudios.com/musicfiles/2019-04-18_-_Romantic_-_David_Fesliyan/2019-04-18_-_Romantic_-_David_Fesliyan.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
